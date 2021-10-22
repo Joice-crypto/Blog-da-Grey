@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+body{
+    background-color: #E8F0F2;
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow-x: hidden;
+    
+}
+
+/* CABEÇALHO =====================*/
+
+.cabecalho {
+    background-color: #2C91A3;
+    margin-top: 2%;
+    display: flex;
+    height: 10rem;
+    display: flex;
+    
+    
+}
+
+.cabecalho a {
+    color: #FFFF;
+    font-family: 'Abril Fatface', cursive;
+    margin-left: 2rem;
+    position: relative;
+    right: 13rem;
+    font-size:25px;
+    
+   
+}
+#opcoes{
+    padding: 2rem;
+    left: 38rem;
+    top: 5rem;
+    display:flex;
+    flex-direction:row;
+    position: relative;
+
+}
+.logo {
+    width: 30rem;
+    height: 30rem;
+    bottom: 9rem;
+    position: relative;
+    margin-left: 3rem;
+
+
+}
+
+
+.container{
+    padding-top: 2rem;
+    margin-left: 7rem;
+    background-color: #FFFF;
+    width: 70rem ;
+    height: 70rem;
+}
+
+/* forumulario =====================*/
+.formulario { 
+    position: relative;  
+    height: 50rem;
+    margin: 5rem;
+    left: 10rem;
+    top: 2rem;
+}
+
+.formulario p {
+    position: relative;
+    margin-top: 45rem;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    
+}
+
+.formulario h1 {
+    position: relative;
+    bottom: 3rem;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    color: #26466C;
+    
+    
+}
+
+
+.campos-form input[type="text"],.campos-form input[type="email"],.campos-form input[type="number"]{
+    padding: 1rem;
+    display:block;
+    border-radius: 10px;
+    margin-top: 1rem; 
+    width: 30rem;
+    height: 3rem;
+    border: none;
+    background-color: #9E9ABD;
+    
+}
+#mensagem {
+    height: 10rem;
+}
+
+#Enviar{
+    position: relative;
+    top: 2rem;
+    left: 10rem;
+    border: none;
+    height: 3rem;
+    width: 10rem;
+    background-color: #9E9ABD;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px rgb(73, 72, 72);
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+   
+
+}
+
+label {
+    display: block;
+    position: relative;
+    top: 0.5rem;
+    font-family: 'PT Serif', serif;
+    color: #26466C;
+}
+
+.campos-form{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+  
+    
+}
+
+
+
+
+/* rodapé =====================*/
+
+footer {
+    position: relative;
+    height: 4rem;
+    background-color: #2C91A3;
+}
+
+.rede-social {
+    position: relative;
+    left: 2%;
+    top: 10%;
+    margin-right: 3%;
+}
+
+#logo_linked {
+    height: 55%;
+    position: absolute;
+    left: 65rem;
+    top: 15%;
+
+}
